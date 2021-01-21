@@ -31,7 +31,7 @@ import redis.clients.jedis.Jedis;
 
 public class Controller {
 
-	private Jedis jedis = new Jedis("localhost", 6379);
+	private Jedis jedis = new Jedis("redis6", 6379);
 	
 	public List<Municipio> getMunicipios() throws Exception {
 		//31 = Minas Gerais
